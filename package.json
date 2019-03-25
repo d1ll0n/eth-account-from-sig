@@ -1,0 +1,17 @@
+{
+  "name": "eth-account-from-sig",
+  "version": "1.0.0",
+  "description": "Create secondary eth keys using signatures",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-util": "^6.1.0"
+  },
+  "devDependencies": {
+    "web3": "^1.0.0-beta.50"
+  }
+}
