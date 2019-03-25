@@ -2,7 +2,7 @@ const ethAddressFromSignature = require('./index')
 const Web3 = require('web3')
 
 async function test() {
-  console.log('Testing eth-address-from-sig')
+  console.log('Testing eth-account-from-sig')
   const web3 = new Web3(new Web3.providers.HttpProvider('https://mainnet.infura.io/v3'))
   const account = web3.eth.accounts.create()
   const message = 'CALCULATING SECONDARY KEY\N'

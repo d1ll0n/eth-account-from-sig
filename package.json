@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "Create secondary eth keys using signatures",
   "main": "index.js",
+  "homepage": "https://github.com/d1ll0n/eth-account-from-sig",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d1ll0n/eth-account-from-sig"
+  },
   "scripts": {
     "test": "node ./test.js"
   },
-  "author": "",
+  "author": "Dillon Kellar",
   "license": "ISC",
   "dependencies": {
     "ethereumjs-util": "^6.1.0"
